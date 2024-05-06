@@ -1,0 +1,49 @@
+{
+  "name": "wrc-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^0.0.0-insiders.865bd57",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "react": "^18.2.0",
+    "react-animate-height": "^3.1.1",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "cstart": "craco start",
+    "start": "react-scripts start",
+    "cbuild": "craco build",
+    "build": "react-scripts build",
+    "ctest": "craco test",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-replace": "^1.1.4"
+  }
+}
